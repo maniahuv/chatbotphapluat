@@ -1,0 +1,24 @@
+paths:
+  chunks_dir: "data/chunks"              # mỗi file *.json = list[chunk]
+  kb_dir: "data/knowledge_base"          # để sinh dev set nếu cần
+  artifacts_dir: "experiments/artifacts"
+  devset_path: "experiments/devset/dev_100.jsonl"
+
+index:
+  embedding_model: "intfloat/multilingual-e5-base"   # có thể đổi sau
+  faiss_nlist: 4096
+  faiss_nprobe: 16
+
+retrieval:
+  bm25_topk: 50
+  dense_topk: 50
+  rrf_K: 60
+  final_topk: 10
+
+reranker:
+  model_name: "cross-encoder/ms-marco-MiniLM-L-6-v2" # baseline
+  apply: true
+  keep_topk: 10
+
+thresholds:
+  answerability_min_score: 0.25

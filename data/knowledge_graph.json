@@ -1,0 +1,121 @@
+{
+  "nodes": [
+    {
+      "id": "Điều 1",
+      "topic": "Phạm vi điều chỉnh"
+    },
+    {
+      "id": "Điều 2",
+      "topic": "Nguyên tắc cơ bản của chế độ hôn nhân và gia đình"
+    },
+    {
+      "id": "Điều 3",
+      "topic": "Giải thích từ ngữ"
+    },
+    {
+      "id": "Điều 4",
+      "topic": "Trách nhiệm của Nhà nước và xã hội đối với hôn nhân và gia đình"
+    },
+    {
+      "id": "Điều 5",
+      "topic": "Bảo vệ chế độ hôn nhân và gia đình và các hành vi cấm"
+    },
+    {
+      "id": "Điều 6",
+      "topic": "Áp dụng Bộ luật Dân sự và các luật khác có liên quan"
+    },
+    {
+      "id": "Điều 7",
+      "topic": "Áp dụng tập quán về hôn nhân và gia đình"
+    },
+    {
+      "id": "Điều 8",
+      "topic": "Điều kiện kết hôn và không công nhận hôn nhân đồng giới"
+    },
+    {
+      "id": "Điều 9",
+      "topic": "Đăng ký kết hôn"
+    },
+    {
+      "id": "Điều 10",
+      "topic": "Người có quyền yêu cầu hủy việc kết hôn trái pháp luật"
+    },
+    {
+      "id": "Điều 11",
+      "topic": "Xử lý việc kết hôn trái pháp luật"
+    },
+    {
+      "id": "Điều 12",
+      "topic": "Hậu quả pháp lý của việc hủy kết hôn trái pháp luật"
+    },
+    {
+      "id": "Điều 13",
+      "topic": "Xử lý việc đăng ký kết hôn không đúng thẩm quyền"
+    },
+    {
+      "id": "Điều 14",
+      "topic": "Giải quyết hậu quả của việc chung sống không đăng ký kết hôn"
+    },
+    {
+      "id": "Điều 15",
+      "topic": "Quyền, nghĩa vụ của cha mẹ và con khi chung sống không đăng ký"
+    },
+    {
+      "id": "Điều 16",
+      "topic": "Giải quyết tài sản khi chung sống không đăng ký kết hôn"
+    },
+    {
+      "id": "Điều 17",
+      "topic": "Bình đẳng về quyền, nghĩa vụ giữa vợ, chồng"
+    },
+    {
+      "id": "Điều 18",
+      "topic": "Bảo vệ quyền, nghĩa vụ nhân thân của vợ, chồng"
+    },
+    {
+      "id": "Điều 19",
+      "topic": "Tình nghĩa vợ chồng và nghĩa vụ sống chung"
+    },
+    {
+      "id": "Điều 20",
+      "topic": "Lựa chọn nơi cư trú của vợ chồng"
+    }
+  ],
+  "edges": [
+    {
+      "from": "Điều 7",
+      "to": "Điều 2",
+      "relation": "liên quan đến"
+    },
+    {
+      "from": "Điều 8",
+      "to": "Điều 5",
+      "relation": "liên quan đến"
+    },
+    {
+      "from": "Điều 10",
+      "to": "Điều 8",
+      "relation": "liên quan đến"
+    },
+    {
+      "from": "Điều 11",
+      "to": "Điều 8",
+      "relation": "liên quan đến"
+    },
+    {
+      "from": "Điều 12",
+      "to": "Điều 16",
+      "relation": "liên quan đến"
+    },
+    {
+      "from": "Điều 14",
+      "to": "Điều 15",
+      "relation": "liên quan đến"
+    },
+    {
+      "from": "Điều 14",
+      "to": "Điều 16",
+      "relation": "liên quan đến"
+    }
+  ]
+}

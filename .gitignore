@@ -1,0 +1,56 @@
+# ===== Python cache & bytecode =====
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ===== Virtual environment =====
+venv/
+env/
+.venv/
+
+# ===== VS Code settings =====
+.vscode/
+.settings/
+.idea/
+
+# ===== OS generated files =====
+.DS_Store
+Thumbs.db
+
+# ===== Logs & temp files =====
+*.log
+*.tmp
+*.swp
+
+# ===== Jupyter Notebook checkpoints =====
+.ipynb_checkpoints/
+
+# ===== Data folders (optional) =====
+data/raw/
+data/cleaned/
+data/chunks/
+data/vector_db/
+data/tmp/
+
+# Nếu bạn muốn commit metadata JSON, hãy giữ lại dòng này:
+!data/metadata/
+
+# ===== Secrets or keys =====
+*.env
+.env
+openai_api_key.txt
+credentials.json
+
+# ===== Build or distribution folders =====
+build/
+dist/
+*.egg-info/
+
+# ===== Cache folders from tools =====
+.cache/
+__pypackages__/
+.mypy_cache/
+.pytest_cache/
+
+# ===== MacOS system files =====
+.DS_Store
